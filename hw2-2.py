@@ -1,8 +1,5 @@
 n = int(input('입력할 배열의 길이 : '))
-N = [0 for i in range(n)]
-for i in range(n):
-    num = int(input())
-    N[i] = num
+N = tuple(map(int,input().split()))
 N.sort()
 K = int(input('K 를 입력하시오 : '))
 

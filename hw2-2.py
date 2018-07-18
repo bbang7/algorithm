@@ -1,5 +1,5 @@
 n = int(input('입력할 배열의 길이 : '))
-N = tuple(map(int,input().split()))
+N = list(map(int,input().split()))
 N.sort()
 K = int(input('K 를 입력하시오 : '))
 

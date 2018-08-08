@@ -80,7 +80,7 @@ def quick_sort(list,piv):
         return quick_sort(down,0) + same + quick_sort(up,0)
 
 
-def heapify(unsorted, index, heap_size):
+def heapify(unsorted, index, heap_size):#코드 짜다가 답이 업성서 웹서핑으로 찾아서 공부하고 올림..
     largest = index
     left_index = 2 * index + 1
     right_index = 2 * index + 2
